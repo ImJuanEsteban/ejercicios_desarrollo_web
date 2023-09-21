@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+h1{
+  text-align: center;
+  color: #A642FF;
+}
+.imagen{text-align: center;}
+.reference{text-align: right;}
+.content{text_align: center;}
+.moraleja{
+  text-align: right;
+  font-weight: bold;
+  font-size: 2em;
+  color: #A642FF;
+}
