@@ -1,18 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 body{
+  text-align: center;
   font-family: 'Poppins', sans-serif;
 }
-h1{
-  text-align: center;
-  color: #A642FF;
+.ta-right{text-align: right;}
+h1,h2{color: #A642FF;}
+p{text-align: left;}
+h2{text-align: right;}
+ul h2{text-align: center;}
+ul{
+  text-align: left;
+  list-style-image: url("../img/icon.png");
+  list-style-position: inside;
 }
-.imagen{text-align: center;}
-.reference{text-align: right;}
-.content{text_align: center;}
-.moraleja{
-  text-align: right;
-  font-weight: bold;
-  font-size: 2em;
-  color: #A642FF;
+table, th, td{border: 2px solid #000000;}
+table{
+  align-items: center;
+  width: 800px;
+  width: 1000px;
+  border-collapse: collapse;
+  border-style: solid;
 }
+th{
+  background-color: #A642FF;
+  color: #FFFFFF;
+}
+
